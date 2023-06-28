@@ -96,15 +96,11 @@ class HomePageState extends State<HomePage> {
     // final sdkAppId = loginInfo.sdkAppID;
     _callKit.enableFloatWindow(true);
     TUICallKit.instance.login(
-        sdkAppId: 1400816521, // 请替换为第一步得到的SDKAppID
-        userId: 'dmf', // 请替换为您的User ID
-        userSig:
-            'eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwim5aVDh4pTsxIKCzBQlK0MTAwMLQzNTI0OITGpFQWZRKlDc1NTUyMDAACJakpkLEjOzMDcztbCwNIeakpkONDUg093SOyIpucQi0DciwLc8398lsyRYuzBVuzTfyCvYLKAkIDjDOcTN2zvSVqkWAKk1MIY_');
-    TUICallKit.instance.login(
-        sdkAppId: 1400816521, // 请替换为第一步得到的SDKAppID
+        sdkAppId: 1400815704, // 请替换为第一步得到的SDKAppID
         userId: 'user', // 请替换为您的User ID
         userSig:
-            'eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwqXFQAoiXpySnVhQkJmiZGVoYmBgYWhmamQIkUmtKMgsSgWKm5qaGhkYGEBESzJzQWJmFuZmZsbmRmZQUzLTgcaaZaSZBQW7mwW5G5ZHVKRW5YdkBTlmh5oFhOQ4FZommZinJWunRkSFmFiU2yrVAgDwZTDR');
+            'eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwqXFQAoiXpySnVhQkJmiZGVoYmBgYWhqbmACkUmtKMgsSgWKm5qaGhkYGEBESzJzQWJmFuaWxqZmZqZQUzLTgcaG*pbH6JcnmRT6RPllFAWEp2Q5BoSXJRUbJno6unlHupsYJeelZOTlBcXoRxbbKtUCAGhBMjs_');
+    
    
   }
 

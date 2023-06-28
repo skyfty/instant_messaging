@@ -4,10 +4,10 @@ enum WebUrl { personalInfo, thirdPartyInfo }
 
 class IMDemoConfig {
   static const int sdkappid =
-      int.fromEnvironment('SDK_APPID', defaultValue: 1400816521);
+      int.fromEnvironment('SDK_APPID', defaultValue: 1400815704);
   static const String key = String.fromEnvironment('KEY',
       defaultValue:
-          "d8191ce0a85bedbd9745de31f76c64b4cb29c474fdfcfa738dcb97cff82f7d70");
+          "31bdacd4dd4220453de856e86fd2907f5a86048ecf5ed7406196d5916201de14");
   static const String appVersion =
       String.fromEnvironment('APP_VERSION', defaultValue: "0.0.1");
   static const String projectType =
